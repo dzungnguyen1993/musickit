@@ -1001,7 +1001,13 @@
 		A9E5EBC01DAF47A800ACE913 /* VMKTieLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1ABC1A0B054C0020EAA8 /* VMKTieLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9E5EBC11DAF47A800ACE913 /* VMKTimeSignatureLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1AC01A0B06280020EAA8 /* VMKTimeSignatureLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9E5EBC21DAF47A800ACE913 /* VMKWedgeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 616C1AC41A0BFE2C0020EAA8 /* VMKWedgeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B956E8071ED2CC7700965B37 /* MusicGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = B956E8041ED2CC7700965B37 /* MusicGenerator.mm */; };
+		B956E8081ED2CC7700965B37 /* VMKScoreRendererIOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = B956E8061ED2CC7700965B37 /* VMKScoreRendererIOS.mm */; };
+		B956E8091ED2CCCE00965B37 /* Symbols.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 614CA7841CE64666009F1E20 /* Symbols.xcassets */; };
+		B956E80B1ED2CCEA00965B37 /* kiss_the_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = B956E80A1ED2CCEA00965B37 /* kiss_the_rain.png */; };
+		B956E80D1ED2CCF400965B37 /* kiss_the_rain.xml in Resources */ = {isa = PBXBuildFile; fileRef = B956E80C1ED2CCF400965B37 /* kiss_the_rain.xml */; };
 		F30D5B6DD23CB5B396B8293C /* libPods-PreviewGenerator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04978BB939C5B560ED000B1B /* libPods-PreviewGenerator.a */; };
+		FEC7EC36C5D2DDD60FAF765E /* libPods-MusicKitApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F202EEF14EEC420B9C88D2 /* libPods-MusicKitApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1785,6 +1791,8 @@
 		61F074411A730E0C002CA9CA /* VMKSystemLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VMKSystemLayer.mm; sourceTree = "<group>"; };
 		61F074461A730EEB002CA9CA /* VMKPartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMKPartLayer.h; sourceTree = "<group>"; };
 		61F074471A730EEB002CA9CA /* VMKPartLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VMKPartLayer.mm; sourceTree = "<group>"; };
+		8938C097D353BA9AA3B2B322 /* Pods-MusicKitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicKitApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		89F202EEF14EEC420B9C88D2 /* libPods-MusicKitApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MusicKitApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C09E37C3547833316077DB3 /* Pods-PreviewGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PreviewGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-PreviewGenerator/Pods-PreviewGenerator.release.xcconfig"; sourceTree = "<group>"; };
 		8CD1C9FC1AF9A83B005C2203 /* VMKOrnamentLayerTests.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = VMKOrnamentLayerTests.mm; sourceTree = "<group>"; };
 		8CF686831AFB28AA00D112B8 /* OrnamentLayer-InvertedMordentShort.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrnamentLayer-InvertedMordentShort.png"; sourceTree = "<group>"; };
@@ -1799,6 +1807,13 @@
 		8CF686951AFB28AA00D112B8 /* OrnamentLayer-TrillBelow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrnamentLayer-TrillBelow.png"; sourceTree = "<group>"; };
 		8CF686961AFB28AA00D112B8 /* OrnamentLayer-TrillBelow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrnamentLayer-TrillBelow@2x.png"; sourceTree = "<group>"; };
 		8CF686971AFB28AA00D112B8 /* OrnamentLayer-TrillBelow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OrnamentLayer-TrillBelow@3x.png"; sourceTree = "<group>"; };
+		B956E8031ED2CC7700965B37 /* MusicGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicGenerator.h; sourceTree = "<group>"; };
+		B956E8041ED2CC7700965B37 /* MusicGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MusicGenerator.mm; sourceTree = "<group>"; };
+		B956E8051ED2CC7700965B37 /* VMKScoreRendererIOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMKScoreRendererIOS.h; sourceTree = "<group>"; };
+		B956E8061ED2CC7700965B37 /* VMKScoreRendererIOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VMKScoreRendererIOS.mm; sourceTree = "<group>"; };
+		B956E80A1ED2CCEA00965B37 /* kiss_the_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiss_the_rain.png; sourceTree = "<group>"; };
+		B956E80C1ED2CCF400965B37 /* kiss_the_rain.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = kiss_the_rain.xml; sourceTree = "<group>"; };
+		DFC256FAD3509A4AAF019BC4 /* Pods-MusicKitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MusicKitApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1807,6 +1822,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				610DC5C91A0831F100BEEBFD /* MusicKit.framework in Frameworks */,
+				FEC7EC36C5D2DDD60FAF765E /* libPods-MusicKitApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2232,6 +2248,7 @@
 		610DC5A21A0831DF00BEEBFD /* MusicKitApp */ = {
 			isa = PBXGroup;
 			children = (
+				B956E8021ED2CC6300965B37 /* Generator */,
 				610DC5A71A0831DF00BEEBFD /* AppDelegate.h */,
 				610DC5A81A0831DF00BEEBFD /* AppDelegate.m */,
 				610DC5AD1A0831DF00BEEBFD /* Main.storyboard */,
@@ -2786,8 +2803,22 @@
 				610DC5981A082FF000BEEBFD /* libxml2.dylib */,
 				0054E8F61A72D7C8007FBC3E /* libPods-PreviewGenerator.a */,
 				04978BB939C5B560ED000B1B /* libPods-PreviewGenerator.a */,
+				89F202EEF14EEC420B9C88D2 /* libPods-MusicKitApp.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B956E8021ED2CC6300965B37 /* Generator */ = {
+			isa = PBXGroup;
+			children = (
+				B956E80A1ED2CCEA00965B37 /* kiss_the_rain.png */,
+				B956E80C1ED2CCF400965B37 /* kiss_the_rain.xml */,
+				B956E8031ED2CC7700965B37 /* MusicGenerator.h */,
+				B956E8041ED2CC7700965B37 /* MusicGenerator.mm */,
+				B956E8051ED2CC7700965B37 /* VMKScoreRendererIOS.h */,
+				B956E8061ED2CC7700965B37 /* VMKScoreRendererIOS.mm */,
+			);
+			path = Generator;
 			sourceTree = "<group>";
 		};
 		F24CAE47E09589653660E64B /* Pods */ = {
@@ -2795,6 +2826,8 @@
 			children = (
 				0F2BE49DBAEAA03A4A78F490 /* Pods-PreviewGenerator.debug.xcconfig */,
 				8C09E37C3547833316077DB3 /* Pods-PreviewGenerator.release.xcconfig */,
+				8938C097D353BA9AA3B2B322 /* Pods-MusicKitApp.debug.xcconfig */,
+				DFC256FAD3509A4AAF019BC4 /* Pods-MusicKitApp.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -2929,9 +2962,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 610DC5C11A0831DF00BEEBFD /* Build configuration list for PBXNativeTarget "MusicKitApp" */;
 			buildPhases = (
+				A33DF62F1887FE4E5F256261 /* [CP] Check Pods Manifest.lock */,
 				610DC59D1A0831DF00BEEBFD /* Sources */,
 				610DC59E1A0831DF00BEEBFD /* Frameworks */,
 				610DC59F1A0831DF00BEEBFD /* Resources */,
+				BB76A81FDC74BFF3CA43D262 /* [CP] Embed Pods Frameworks */,
+				B76619CA5F5394B1DD3E8C2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3122,8 +3158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				610DC5AF1A0831DF00BEEBFD /* Main.storyboard in Resources */,
+				B956E8091ED2CCCE00965B37 /* Symbols.xcassets in Resources */,
+				B956E80B1ED2CCEA00965B37 /* kiss_the_rain.png in Resources */,
 				610DC67E1A08342900BEEBFD /* Media.xcassets in Resources */,
 				610DC5B41A0831DF00BEEBFD /* LaunchScreen.xib in Resources */,
+				B956E80D1ED2CCF400965B37 /* kiss_the_rain.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3698,7 +3737,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		51FC021A592EAAAB95A0B151 /* [CP] Copy Pods Resources */ = {
@@ -3716,6 +3755,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PreviewGenerator/Pods-PreviewGenerator-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A33DF62F1887FE4E5F256261 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B76619CA5F5394B1DD3E8C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB76A81FDC74BFF3CA43D262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MusicKitApp/Pods-MusicKitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -3725,6 +3809,8 @@
 			files = (
 				610DC5A91A0831DF00BEEBFD /* AppDelegate.m in Sources */,
 				610DC5A61A0831DF00BEEBFD /* main.m in Sources */,
+				B956E8081ED2CC7700965B37 /* VMKScoreRendererIOS.mm in Sources */,
+				B956E8071ED2CC7700965B37 /* MusicGenerator.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4200,6 +4286,7 @@
 /* Begin XCBuildConfiguration section */
 		610DC5C21A0831DF00BEEBFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8938C097D353BA9AA3B2B322 /* Pods-MusicKitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -4216,6 +4303,7 @@
 		};
 		610DC5C31A0831DF00BEEBFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC256FAD3509A4AAF019BC4 /* Pods-MusicKitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MusicKitApp/Info.plist;

@@ -4,3 +4,8 @@ target :PreviewGenerator do
     platform :osx, "10.8"
     pod "SSZipArchive"
 end
+
+target :MusicKitApp do
+    
+    pod "SSZipArchive"
+end
